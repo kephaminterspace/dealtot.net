@@ -1,0 +1,10 @@
+window.hjSiteSettings = window.hjSiteSettings || {"testers_widgets":[],"surveys":[],"record_targeting_rules":[],"recording_capture_keystrokes":true,"polls":[],"site_id":174331,"forms":[],"record":false,"heatmaps":[{"created_epoch_time":1460433660,"targeting":[{"negate":false,"pattern":"http:\/\/doctordong.vn\/vsale\/","match_operation":"simple","component":"url"}],"id":464567,"selector_version":0},{"created_epoch_time":1458327184,"targeting":[{"negate":false,"pattern":"https:\/\/doctordong.vn\/v3","match_operation":"simple","component":"url"}],"id":423699,"selector_version":0},{"created_epoch_time":1458327167,"targeting":[{"negate":false,"pattern":"https:\/\/doctordong.vn\/v2","match_operation":"simple","component":"url"}],"id":423697,"selector_version":0}],"deferred_page_contents":[{"targeting":[{"negate":false,"pattern":"http:\/\/doctordong.vn\/vsale\/","match_operation":"simple","component":"url"},{"negate":false,"pattern":"desktop","match_operation":"exact","component":"device"}],"id":1025035},{"targeting":[{"negate":false,"pattern":"http:\/\/doctordong.vn\/vsale\/","match_operation":"simple","component":"url"},{"negate":false,"pattern":"tablet","match_operation":"exact","component":"device"}],"id":1025034},{"targeting":[{"negate":false,"pattern":"http:\/\/doctordong.vn\/vsale\/","match_operation":"simple","component":"url"},{"negate":false,"pattern":"phone","match_operation":"exact","component":"device"}],"id":1025033}],"feedback_widgets":[],"r":1.0,"state_change_listen_mode":"manual"};
+
+window.hjBootstrap = window.hjBootstrap || function (scriptUrl) {
+    var s = document.createElement('script');
+    s.src = scriptUrl;
+    document.getElementsByTagName('head')[0].appendChild(s);
+    window.hjBootstrap = function() {};
+};
+
+hjBootstrap('https://script.hotjar.com/modules-4b3746a1ebd33bf90d8b72f800c2b1ec.js');
