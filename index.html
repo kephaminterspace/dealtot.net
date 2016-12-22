@@ -26,7 +26,9 @@
  <script type="text/javascript" async="" src="./index_files/conversion_async.js"></script>
  <script async="" src="./index_files/gtm.js"></script><script>
 
-
+ //<![CDATA[
+ window.gon={};gon.locale="vi";gon.translations={"js.slider.needAmount":"VNĐ","resendCode":"Gửi lại","js.pleaseSelect":"Vui lòng chọn","js.slider.tip":"Dành cho khách hàng đã vay","errors.messages.phoneShouldByValid":"Số điện thoại không hợp lệ. Vui lòng điền số chính xác."};gon.calculator={"amount":[1000000,1500000,2000000,2500000,3000000,4000000,6000000,8000000,10000000],"term":[60,90,120],"denominator":1000000,"amountLimitation":2000000,"commissions":{"1000000":{"10":200000,"20":300000,"30":390000},"1500000":{"10":300000,"20":450000,"30":580000},"2000000":{"10":400000,"20":590000,"30":780000},"2500000":{"10":500000,"20":740000,"30":980000},"3000000":{"10":600000,"20":890000,"30":1180000},"4000000":{"10":790000,"20":1180000,"30":1570000},"6000000":{"10":1190000,"20":1770000,"30":2350000},"8000000":{"10":1580000,"20":2360000,"30":3130000},"10000000":{"10":1970000,"20":2940000,"30":3920000}}};
+ //]]>
 
 </script><link rel="stylesheet" media="screen" href="./index_files/css"><link rel="stylesheet" media="all" href="./index_files/application-6d6bce6e92b0a7722f00968045854ca5efe6cad2e723f800dbe6bc5a2fedfcda.css"><!-- Start Visual Website Optimizer Asynchronous Code -->
 <script type="text/javascript">
@@ -51,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="container-fluid container-main" role="container">
  <div class="header wrapper"><div class="row"><div class="col-md-3">
-  <a class="header__logo" href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Deal Tốt</a>
+  <a class="header__logo" href="#">Deal Tốt</a>
  </div>
  <div class="col-md-9 text-right header__info visible-md-block visible-lg-block">
   <strong class="header__info__mail">
@@ -67,12 +69,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <span class="icon-bar"></span></button></div>
    <div class="collapse navbar-collapse" id="navbar-collapse">
     <ul class="nav navbar-nav">
-     <li class="nav__home active"><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F"><i class="fa fa-home"></i></a></li>
-     <li class="false"><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Về Deal Tốt</a></li>
-     <li class="false"><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Tiến hành vay</a></li>
-     <li class="false"><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Thanh toán khoản vay</a></li>
-     <li class="false"><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Liên hệ</a></li>
-     <li><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Câu hỏi thường gặp</a></li></ul></div></div></nav></div>
+     <li class="nav__home active"><a href="#"><i class="fa fa-home"></i></a></li>
+     <li class="false"><a href="#">Về Deal Tốt</a></li>
+     <li class="false"><a href="#">Tiến hành vay</a></li>
+     <li class="false"><a href="#">Thanh toán khoản vay</a></li>
+     <li class="false"><a href="#">Liên hệ</a></li>
+     <li><a href="#">Câu hỏi thường gặp</a></li></ul></div></div></nav></div>
  <div class="main">
   <h1 class="main__title text-center">Giải pháp tài chính trong vòng 24h</h1>
   <p style="text-align: center; font-size: 20px;">Lãi xuất tối đa 10%/tháng</p>
@@ -83,7 +85,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <h3 class="hero__title">Tôi cần vay
     <span role="calcAmount">2.000.000 </span><br>trong <span role="forTerms">120</span> ngày </h3><div class="hero__sliders">
    <div class="hero__slider_amount">
-    <div class="slider slider-horizontal" id="" style="margin-bottom: 50px;">
+    <div class="slider slider-horizontal" id="" style="margin-bottom: 50px; display:none;">
      <div class="slider-track">
       <div class="slider-track-low" style="left: 0px; width: 0%;"></div>
       <div class="slider-selection tick-slider-selection" style="left: 0%; width: 25%;"></div>
@@ -116,7 +118,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="slider-tick-label" style="width: 41.25px; position: absolute; left: 87%; margin-left: -20.625px;">8&nbsp;triệu</div>
       <div class="slider-tick-label" style="width: 41.25px; position: absolute; left: 100%; margin-left: -20.625px;">10&nbsp;triệu</div>
      </div></div>
-    <input role="amountSlider" data-slider-value="2000000" type="hidden" value="2000000" name="application[amount]" id="application_amount" data-value="2000000" style="display: none;"></div><div class="hero__slider_terms"><div class="slider slider-horizontal" id="" style="margin-bottom: 50px;">
+    <input role="amountSlider" data-slider-value="2000000" type="hidden" value="2000000" name="application[amount]" id="application_amount" data-value="2000000" style="display: none;"></div><div class="hero__slider_terms">
+   <div class="slider slider-horizontal" id="" style="margin-bottom: 50px; display:none;">
    <div class="slider-track"><div class="slider-track-low" style="left: 0px; width: 0%;"></div>
     <div class="slider-selection tick-slider-selection" style="left: 0%; width: 100%;"></div>
     <div class="slider-track-high" style="right: 0px; width: 0%;"></div><div class="slider-tick round in-selection" style="left: 0%;"></div>
@@ -154,6 +157,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <label class="additional-information__subject__label click_direct" for="hiro-subject"></label></div></div>
    <div class="form-group margin-none margin-top-20">
     <button name="button" type="button" class="form_hero__btn form_hero__btn-wallet click_direct" role="submitButton">VAY NGAY</button></div></div></div>
+
+
  </form></div><div class="visible-lg-block visible-md-block">
   <div class="wrapper"><ul class="main__steps row">
    <li class="main__steps__item col-xs-12 col-md-3">
@@ -189,16 +194,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <div class="col-md-8">
     <ul class="footer__links">
      <li>
-      <a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Home</a></li>
-     <li><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Về Deal Tot</a></li>
-     <li><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Tiến hành vay</a></li>
-     <li><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Thanh toán khoản vay</a></li>
-     <li><a href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">Liên hệ</a></li>
+      <a href="#">Home</a></li>
+     <li><a href="#">Về Deal Tot</a></li>
+     <li><a href="#">Tiến hành vay</a></li>
+     <li><a href="#">Thanh toán khoản vay</a></li>
+     <li><a href="#">Liên hệ</a></li>
     </ul>
-    <ul class="footer__copy"><li><a rel="nofollow" href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">
+    <ul class="footer__copy"><li><a rel="nofollow" href="#">
      Công ty TNHH MTV Cho Vay Tài Chính Deal Tot
      <br>Số 34 - Láng Hạ- Đống Đa- Hà Nội
-     <br>© Copyright 2016</a>&nbsp;&nbsp;<strong><a rel="nofollow" href="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F">dealtot.net</a></strong>
+     <br>© Copyright 2016</a>&nbsp;&nbsp;<strong><a rel="nofollow" href="#">dealtot.net</a></strong>
     </li>
     </ul>
    </div>
@@ -290,9 +295,9 @@ b,!1);"complete"===document.readyState&&b()})();</script>
 <script type="text/javascript" id="">var ants_analytic=ants_analytic||[];ants_analytic.push({conversionId:"509897a8"});</script><div id="ads"></div>
 
 <script>
- $(".click_direct").click(function(){
-  window.location.href ="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F";
- });
+// $(".click_direct").click(function(){
+//  window.location.href ="https://pub.accesstrade.vn/deep_link/4410351938505986965?url=http%3A%2F%2Fvananphat.info%2F";
+// });
 </script>
 
 </body>
